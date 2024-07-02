@@ -37,8 +37,15 @@ function dateFormat(date) {
 
   let day = days[date.getDay()];
 
-  if (hours > 12) {
-    hours = hours - 12;
+  if (hours >= 12) {
+    period = "PM";
+    if (hours > 12) {
+      hours = hours - 12;
+    }
+  }
+
+  if (hours === 0) {
+    hours = 12; // Handle midnight case
   }
 
   if (minutes < 10) {

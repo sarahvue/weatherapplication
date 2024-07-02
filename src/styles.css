@@ -1,5 +1,5 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #e4f1f7;
   font-family: "Fira Sans", sans-serif;
 }
 
@@ -21,12 +21,12 @@ main {
 .weather-details {
   font-size: 16px;
   line-height: 24px;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(71, 65, 99, 0.4);
   font-weight: 500;
 }
 
 .weather-details strong {
-  color: #f65282;
+  color: #7e78f6;
 }
 
 .app {
@@ -49,7 +49,7 @@ header {
 }
 
 .search-form-input {
-  background-color: #f9f7fe;
+  background-color: #f4f8fc;
   border: none;
   border-radius: 6px;
   width: 80%;
@@ -58,7 +58,7 @@ header {
 }
 
 .search-form-btn {
-  background-color: #885df1;
+  background-color: #78cff6;
   padding: 15px 30px;
   border: none;
   border-radius: 6px;
@@ -89,7 +89,7 @@ header {
 }
 
 a {
-  color: #885df1;
+  color: #78cff6;
 }
 
 footer {

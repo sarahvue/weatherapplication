@@ -30,7 +30,7 @@ main {
 }
 
 .app {
-  background-color: #fff;
+  background-color: #fefefe;
   max-width: 600px;
   margin: 45px auto;
   padding: 30px;
@@ -103,8 +103,10 @@ header {
 }
 
 .weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  width: 58px;
+  height: 58px;
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-forecast-temps {
@@ -116,7 +118,7 @@ header {
 }
 
 .weather-forecast-temp {
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 .bold {
